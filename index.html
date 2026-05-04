@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elata Apart Skhidnytsia | Гостьовий будинок</title>
+    <meta name="description" content="Гостьовий будинок Elata Apart у Східниці. Забронюйте комфортний відпочинок з преміальним сервісом та неймовірними краєвидами.">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Modern Typography: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <img src="ELATA LOGO.JPG" alt="Elata Logo" class="preloader-logo">
+            <div class="preloader-title">ELATA APART</div>
+            <div class="preloader-bar-container">
+                <div class="preloader-bar"></div>
+            </div>
+            <p class="preloader-status">Завантаження...</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="ELATA LOGO.JPG" alt="Elata Apart Logo">
+                <div class="logo-info">
+                    <span class="logo-text">Elata Apart</span>
+                    <span class="logo-subtitle">Skhidnytsia • Luxury</span>
+                </div>
+            </a>
+            <nav class="nav-links">
+                <a href="#about">Про нас</a>
+                <a href="#location">Локація</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#reviews">Відгуки</a>
+                <a href="javascript:void(0)" class="btn-primary open-booking">Забронювати</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-slides">
+                <img src="5.png" alt="Головний вхід" class="active">
+                <img src="2.png" alt="Вид на територію">
+                <img src="1.png" alt="Інтер'єр номера">
+                <img src="9.png" alt="Краєвид готелю">
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <span class="badge">Гостьовий будинок Elata Apart</span>
+            <h1>Ваш ідеальний простір для релаксу</h1>
+            <p>Відчуйте гармонію незайманої природи та преміального комфорту в гостьовому будинку Elata Apart. Ми створили місце, де зупиняється час.</p>
+            <div class="hero-actions">
+                <a href="javascript:void(0)" class="btn-primary open-booking">Забронювати номер</a>
+                <a href="#about" class="btn-secondary">Дізнатися більше</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Split Layout) -->
+    <section class="split-section" id="about">
+        <div class="container split-grid">
+            <div class="split-content reveal">
+                <h2>Атмосфера бездоганного комфорту</h2>
+                <p>Elata Apart — це не просто готель, це ваш особистий куточок затишку серед Карпат. Наші апартаменти спроектовані так, щоб кожен гість міг насолодитися простором, світлом та бездоганним сервісом.</p>
+                <p>Елегантні інтер'єри, виконані у світлих, пастельних тонах, сприяють повному розслабленню. Ми приділяємо увагу найменшим деталям: від м'якості постільної білизни до аромату кави вранці.</p>
+                <a href="#rooms" class="btn-secondary" style="margin-top: 1rem;">Переглянути номери</a>
+            </div>
+            <div class="split-image">
+                <img src="1.png" alt="Інтер'єр номеру Elata Apart" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms & Prices -->
+    <section class="rooms-section side-decorated" id="rooms">
+        <div class="side-decoration deco-left">
+            <svg viewBox="0 0 100 100">
+                <text x="50" y="70" text-anchor="middle" font-family="Outfit, sans-serif" font-size="70" fill="none" stroke="currentColor" stroke-width="1.2">₴</text>
+            </svg>
+        </div>
+        <div class="side-decoration deco-right">
+            <svg viewBox="0 0 100 100">
+                <text x="50" y="70" text-anchor="middle" font-family="Outfit, sans-serif" font-size="70" fill="none" stroke="currentColor" stroke-width="1.2">₴</text>
+            </svg>
+        </div>
+        <div class="container">
+            <img src="image_transparent.png" alt="Decorative" class="decorative-section-img">
+            <div class="section-header">
+                <h2>Наші номери та ціни</h2>
+                <p>Обирайте найкращий варіант для вашого відпочинку</p>
+            </div>
+
+            <h3 style="text-align: center; margin-bottom: 2rem; color: var(--accent-color);">Найпопулярніші номери</h3>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <img src="DSC08330.JPG" alt="Двомісний номер" loading="lazy">
+                    <div class="room-info">
+                        <h3>Двомісний номер</h3>
+                        <p class="room-price">від 880 грн / ніч</p>
+                        <p>Затишний номер з великим ліжком, власною ванною та телевізором.</p>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="DSC08414.JPG" alt="Чотиримісний номер Делюкс" loading="lazy">
+                    <div class="room-info">
+                        <h3>Чотиримісний номер Делюкс</h3>
+                        <p class="room-price">від 1 260 грн / ніч</p>
+                        <p>Просторий номер для родини або компанії з покращеним плануванням.</p>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="DSC08472.JPG" alt="Тримісний номер з терасою" loading="lazy">
+                    <div class="room-info">
+                        <h3>Тримісний номер з терасою</h3>
+                        <p class="room-price">від 1 330 грн / ніч</p>
+                        <p>Ексклюзивний номер із власною терасою та панорамним видом на гори.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hidden Extra Rooms -->
+            <div id="extraRooms" class="rooms-grid" style="display: none; margin-top: 2rem;">
+                <div class="room-card">
+                    <img src="DSC08330.JPG" alt="Бюджетний двомісний номер" loading="lazy">
+                    <div class="room-info">
+                        <h3>Бюджетний двомісний номер</h3>
+                        <p class="room-price">від 820 грн / ніч</p>
+                        <p>Компактний та зручний варіант для економного відпочинку.</p>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="DSC08414.JPG" alt="Чотиримісний номер Преміум" loading="lazy">
+                    <div class="room-info">
+                        <h3>Чотиримісний номер Преміум</h3>
+                        <p class="room-price">від 1 330 грн / ніч</p>
+                        <p>Високий рівень комфорту та стильний інтер'єр для великої родини.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <button id="showMoreRooms" class="btn-secondary">Побачити більше</button>
+            </div>
+            
+            <div class="amenities-container" style="margin-top: 5rem;">
+                <h3>Наші зручності:</h3>
+                <ul class="amenities-list">
+                    <li>✔️ Безкоштовний високошвидкісний Wi-Fi</li>
+                    <li>✔️ Повністю обладнана кухня (плита, посуд, чайник)</li>
+                    <li>✔️ Власна ванна кімната з душем та косметичними засобами</li>
+                    <li>✔️ Кондиціонер та індивідуальне опалення</li>
+                    <li>✔️ Телевізор з плоским екраном (Smart TV)</li>
+                    <li>✔️ Безкоштовна приватна парковка</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Nature & Landscapes (Alt Background) -->
+    <section class="split-section reverse alt-bg side-decorated" id="landscape">
+        <div class="side-decoration deco-left">
+            <svg viewBox="0 0 100 150">
+                <path d="M50 10 L20 60 L35 60 L10 100 L40 100 L40 140 L60 140 L60 100 L90 100 L65 60 L80 60 Z" fill="none" stroke="currentColor" stroke-width="2" />
+            </svg>
+        </div>
+        <div class="side-decoration deco-right">
+            <svg viewBox="0 0 100 150">
+                <path d="M50 10 L20 60 L35 60 L10 100 L40 100 L40 140 L60 140 L60 100 L90 100 L65 60 L80 60 Z" fill="none" stroke="currentColor" stroke-width="2" />
+            </svg>
+        </div>
+        <div class="container">
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <h2>Мальовничі краєвиди Східниці</h2>
+                <p>Східниця відома своїми цілющими джерелами та неймовірною природою. Наш готель розташований у серці цього бальнеологічного курорту, відкриваючи гостям панорамні види на хвойні ліси та гори.</p>
+                <p>Прокидайтеся під спів птахів, гуляйте лісовими стежками та дихайте найчистішим повітрям. Тут природа сама стає вашим лікарем і надихає на нові звершення.</p>
+            </div>
+            
+            <div class="triple-grid" style="margin-top: 3rem;">
+                <div class="triple-card">
+                    <img src="8.png" alt="Природа Східниці" loading="lazy">
+                </div>
+                <div class="triple-card">
+                    <img src="Снимок экрана 2026-05-03 190247.png" alt="Природа Східниці" loading="lazy">
+                </div>
+                <div class="triple-card">
+                    <img src="7.png" alt="Природа Східниці" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Masonry Photo Gallery -->
+    <section class="gallery-section reveal" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Галерея</h2>
+                <p>Зазирніть у кожен куточок нашого комплексу</p>
+            </div>
+            <div class="masonry-grid" id="mainGallery">
+                <div class="masonry-item"><img src="DSC08272.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08284.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08288.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08295.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08308.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08311.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08315.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08316.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08318.JPG" alt="Фото готелю" loading="lazy"></div>
+            </div>
+            
+            <div class="masonry-grid" id="hiddenGallery" style="display: none; margin-top: 2rem;">
+                <div class="masonry-item"><img src="DSC08322.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08325.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08330.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08343.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08359.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08360.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08377.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08414.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08417.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08431.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08434.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08459.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08472.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="DSC08477.JPG" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="1.png" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="2.png" alt="Фото готелю" loading="lazy"></div>
+                <div class="masonry-item"><img src="9.png" alt="Фото готелю" loading="lazy"></div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <button id="showMoreBtn" class="btn-secondary">Більше фотографій...</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section side-decorated" id="services">
+        <div class="side-decoration deco-left">
+            <svg viewBox="0 0 100 100">
+                <text x="50" y="75" text-anchor="middle" font-family="Outfit, sans-serif" font-size="90" fill="currentColor" stroke="none">+</text>
+            </svg>
+        </div>
+        <div class="side-decoration deco-right">
+            <svg viewBox="0 0 100 100">
+                <text x="50" y="75" text-anchor="middle" font-family="Outfit, sans-serif" font-size="90" fill="currentColor" stroke="none">+</text>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>Наші додаткові послуги</h2>
+                <p>Ми дбаємо про те, щоб ваш відпочинок був максимально безтурботним</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">🍢</div>
+                    <h3>Зона для барбекю</h3>
+                    <p>Альтанки та все необхідне приладдя для приготування страв на вогні.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🚲</div>
+                    <h3>Прокат велосипедів</h3>
+                    <p>Досліджуйте мальовничі околиці Східниці на сучасних велосипедах.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">☕</div>
+                    <h3>Ранкова кава</h3>
+                    <p>Смачна натуральна кава, щоб ваш ранок почався бадьоро та приємно.</p>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon">🚕</div>
+                    <h3>Трансфер</h3>
+                    <p>Ми допоможемо організувати зручний доїзд від вокзалу чи аеропорту.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews reveal" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>Що кажуть наші гості</h2>
+                <p>Відгуки тих, хто вже оцінив комфорт Elata Apart</p>
+            </div>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Неймовірне місце! Дуже просторі, світлі номери і великі вікна з чудовим краєвидом. Відчувається турбота в кожній дрібниці. Обов'язково повернемося."</p>
+                    <span class="review-author">— Олена В.</span>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Найкращий готель у Східниці. Сучасний дизайн, ідеальна чистота та дуже привітний персонал. Локація дозволяє насолодитися тишею лісу."</p>
+                    <span class="review-author">— Михайло К.</span>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Відпочивали з сім'єю. Дуже сподобалася атмосфера та дизайн. Номери величезні, все продумано до дрібниць. Рекомендую всім, хто шукає преміум-відпочинок."</p>
+                    <span class="review-author">— Ірина Т.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map & Surroundings -->
+    <section class="location-section" id="location">
+        <div class="container split-grid" style="align-items: start;">
+            <div class="location-info">
+                <h2>Що поруч з нами</h2>
+                <p>Elata Apart розташований у дуже зручному місці для оздоровлення та прогулянок:</p>
+                <ul class="nearby-list">
+                    <li><strong>💧 Джерело №25 та №26:</strong> всього 300 метрів (ідеально для щоденного пиття)</li>
+                    <li><strong>💧 Джерело №2с (содова):</strong> близько 500 метрів</li>
+                    <li><strong>🌲 Ліс:</strong> починається відразу за територією комплексу</li>
+                    <li><strong>🏪 Центр селища (кафе, супермаркети):</strong> 800 метрів</li>
+                    <li><strong>⛰️ Національний парк "Сколівські Бескиди":</strong> 1 км</li>
+                </ul>
+                <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
+                    <a href="https://maps.apple.com/?ll=49.219407,23.351113&q=Тараса+Шевченка+172-г+Східниця" target="_blank" class="btn-primary" style="width: auto;">Відкрити в Apple Maps</a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=49.219407,23.351113" target="_blank" class="btn-secondary" style="width: auto;">Відкрити в Google Maps</a>
+                </div>
+            </div>
+            <div class="location-map">
+                <iframe 
+                    src="https://maps.google.com/maps?q=49.219407,23.351113&z=15&output=embed" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; border-radius: 16px; box-shadow: 0 15px 30px rgba(0,0,0,0.05);" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="fresco-container">
+            <!-- Frescoes will be applied via CSS background -->
+        </div>
+        <div class="container">
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Elata Apart Skhidnytsia. Всі права захищені.</p>
+                <p>Розроблено з командою <a href="https://wirecode.space/" id="wire-code-link" target="_blank" style="text-decoration: none; color: inherit; font-weight: 600;">wire code</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- Floating Contact Button -->
+    <div class="floating-contact">
+        <div id="contactPopup" class="contact-popup hidden">
+            <p style="margin-bottom: 1rem; font-weight: 600;">Наші контакти:</p>
+            <div class="contact-links" style="display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
+                <a href="tel:+380688444188" class="contact-item" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-size: 1.1rem; transition: var(--transition-smooth);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#bfa373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l2.29-2.29a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <span>+380 68 844 4188</span>
+                </a>
+                <a href="https://www.instagram.com/elataaparts_skhidnytsia/" target="_blank" class="contact-item" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-size: 1.1rem; transition: var(--transition-smooth);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#bfa373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+        <button id="contactBtn" class="contact-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chat-icon">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container">
+            <div class="booking-card">
+                <button class="modal-close" id="closeModal">×</button>
+                <span class="booking-label">ШВИДКЕ БРОНЮВАННЯ</span>
+                <h3>Заплануйте свій відпочинок</h3>
+                <p>Заповніть форму, і ми зв'яжемось з вами протягом 30 хвилин.</p>
+                
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-group">
+                        <label for="name">ВАШЕ ІМ'Я</label>
+                        <input type="text" id="name" placeholder="Ім'я та прізвище" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">ТЕЛЕФОН</label>
+                        <input type="tel" id="phone" placeholder="+380 ..." required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">ДАТА ЗАЇЗДУ</label>
+                            <input type="date" id="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">ДАТА ВИЇЗДУ</label>
+                            <input type="date" id="checkout" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">КІЛЬКІСТЬ ОСІБ</label>
+                        <select id="guests">
+                            <option value="1">1 особа</option>
+                            <option value="2" selected>2 особи</option>
+                            <option value="3">3 особи</option>
+                            <option value="4">4 особи</option>
+                            <option value="more">Більше 4 осіб</option>
+                        </select>
+                    </div>
+
+
+                    <button type="submit" class="btn-submit">НАДІСЛАТИ ЗАПИТ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Lightbox Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-container" style="max-width: 60vw;">
+            <button class="modal-close" id="closeImageModal">×</button>
+            <img id="lightboxImage" src="" alt="Перегляд фото" style="width: 100%; max-height: 85vh; object-fit: contain; border-radius: 8px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
